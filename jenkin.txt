@@ -1,0 +1,23 @@
+
+
+10:12 AM
+
+Raman Sharma to me
+
+1. Create a JAva-Project it will have App.java
+2. install Maven create an archtype..src and pom.xml
+3. Create a Github repository which has your maven project.
+4. Crete a jenkins job which will pull the data of your Github to slave machine
+5. install maven on your slave machine
+6. In Jenkins job in Build Steps Enter the command to create maven package
+7. It will create a jar
+8. Install docker
+9. Create a Docker file which will install ubuntu and install apache server on this image and copy .jar file to 
+   /var/www/html/
+10. run the Docker container
+11. Visit the website
+Reply in private
+
+
+
+http://13.233.122.107:8080/  jenkin url
